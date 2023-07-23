@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display : grid;
+    grid-template-rows: 2fr 8fr;
+    grid-template-columns: 1fr 6fr;
+}
+
+header{
+    background-color: coral;
+    grid-row: 1/2;
+    grid-column : 2/3;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-columns: 5fr 2fr 3fr;
+}
+
+.search{
+    grid-column: 1/2;
+    background-color: antiquewhite;
+}
+
+.notif{
+    grid-column: 2/3;
+    background-color: bisque;
+}
+
+.user{
+    grid-column: 3/4;
+    background-color: burlywood;
+}
+
+.greetings{
+    grid-column: 1/2;
+    background-color: azure;
+}
+
+.post-menu{
+    grid-column: 2/4;
+}
+
+main{
+    background-color: cornsilk;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.sidebar{
+    background-color: cornflowerblue;
+    grid-row: span 2;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+
+
