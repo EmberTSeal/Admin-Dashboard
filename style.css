@@ -132,6 +132,10 @@ header{
     grid-template-columns: 1fr;
     justify-items: start;
     padding-left: 15px;
+    /* to make the sidebar sticky */
+    position: sticky;
+    top:0;
+    height: 100vh;
 }
 
 .branding img{
@@ -222,6 +226,9 @@ main{
     border-left: 8px solid rgb(236, 179, 34);
     border-radius: 5px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     box-shadow: 3px 7px 10px 0px rgb(150, 154, 165);
 }
 
@@ -234,6 +241,7 @@ main img{
     width: 20px;
     height: 20px;
     padding: 10px 15px;
+    align-self: flex-end;
 }
 
 main span{
