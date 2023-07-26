@@ -196,9 +196,9 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 0.2fr repeat(3, 2fr);
-    align-items: center;
-    margin: 0px 25px;
+    justify-content: center;
     gap: 20px;
+    margin: 0px 25px;
 }
 
 #projects h2 {
